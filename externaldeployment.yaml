@@ -17,7 +17,7 @@ spec:
         image: gcr.io/may2021-dtc109/external-image:v1.0.0
         env: 
         - name: SERVER
-          value: "http://demo-service:8082"
+          value: "http://demo-service.production:8082"
         ports:
         - containerPort: 8080
             
